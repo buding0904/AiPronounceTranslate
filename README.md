@@ -1,50 +1,18 @@
-# Vite & HeroUI Template
+# AI 发音翻译
 
-This is a template for creating applications using Vite and HeroUI (v2).
+这是一个基于 AI 模型的拼音翻译工具，可以通过输入拼音来搜索对应的语言。
 
-[Try it on CodeSandbox](https://githubbox.com/frontio-ai/vite-template)
+## 用途
+很多时候我们在学习一门语言时，只记得单词的发音但是不知道怎么写，这个工具可以帮助我们快速找到对应的单词。
 
-## Technologies Used
+## 例子
+![a ni ga do](/screenshot.jpg)
 
+## 技术栈
 - [Vite](https://vitejs.dev/guide/)
 - [HeroUI](https://heroui.com)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
+- [豆包 AI](https://www.volcengine.com/)
 
-## How to Use
+## 🌐 部署指南
 
-To clone the project, run the following command:
-
-```bash
-git clone https://github.com/frontio-ai/vite-template.git
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/frontio-ai/vite-template/blob/main/LICENSE).
+[![Vercel部署按钮](https://vercel.com/button)](https://vercel.com/new/clone?s=https://github.com/buding0904/AiPronounceTranslate.git)
